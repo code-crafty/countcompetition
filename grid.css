@@ -1,0 +1,62 @@
+.buttoncontain{
+    position: absolute;
+    top:6cm;
+    bottom: 3cm;
+    left: 12cm;
+    border:2px solid #dfdfdf;
+    width: 10.45cm;
+    height: 10cm;
+}
+.border{
+    position: absolute;
+    top:5.5cm;
+    bottom: 3cm;
+    left: 11.74cm;
+    border:10mm solid #dfdfdf;
+    border-radius: 5mm;
+    width: 11cm;
+    height: 11cm;
+    border:2px solid #dfdfdf;
+}
+#laps{
+  float : left;
+  position: absolute;
+  left: 7cm;
+  top : 3cm;
+  width: 18cm;
+  height: 1cm;
+  border: solid white 5px;
+  border-radius: 0.5cm;
+  color: #dfdfdf;
+  font-size: 24pt;
+  text-align: start;
+}
+.gridbutton button {
+  background-color: #262626; /* Green background */
+  border: 1px solid #dfdfdf; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 2cm;
+  height: 2cm;
+  animation: roll 2s infinite;
+}
+
+.gridbutton button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+
+
+#order{
+  float: left;
+  width: 8cm;
+  height: 2cm;
+  color: #dfdfdf;
+  font-size: 20pt;
+  position: absolute;
+  top : 1cm;
+  left : 2cm;
+  z-index: 5;
+}
